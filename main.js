@@ -1,3 +1,15 @@
+// Assalomu aleykum o'yin haqida qisqacha ma'lumot:
+// O'yinimizni nomi Sarguzashtlar shahri .
+// 1)O'yinchi promtdan ismini kiritadi va javobi alertda chiqadi
+// 2)Keyin esa yana promtdan qayerga borishi soraladi va berilgan 3 ta royhatdan bittasi tanlanadi 
+// Agar berilgan royhatdan tashqari boshqa nom kiritilsa , yuqoridagi savol yana qaytib kelishi kerak
+// 3)Agar 3 ta joydan birini kiritsa promtdan savol berilishi kerak va javobi togri bolsa keyingi etapga otgan bolib yutgan hisoblanadi
+// 4)Agar javob notori bo'lsa yana bitta imkinoyat beriladi , va osha savol yana qayatadan chiqishi kerak Nori javoblarni hisoblab ketish kerak va 
+// alertda nechta xatolikka yol qoyilganini chiqarsih kerak 
+
+
+
+
 var playerName = prompt("Привет! Как тебя зовут?").trim();
 alert("Добро пожаловать в Кодоландию, " + playerName.toUpperCase() + "!");
 
